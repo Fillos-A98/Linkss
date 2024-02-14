@@ -25,3 +25,8 @@ h1{
     border-radius: 7px;
     text-decoration: none;
 }
+
+.block-bg{
+    background-image: url("/static/img/background.jpg");
+    background-size: cover;
+}
