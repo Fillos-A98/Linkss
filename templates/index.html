@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="block-bg">
+    <div class="alert alert-danger" role="alert">
+        Сайт у закритому альфа тесті!
+    </div>
+<div class="large-text text-center">
+    Links & chats
+</div>
+
+<div class="container card card-padding">
+    <div class="card-body">
+        <h5 class="card-title">XD</h5>
+        <p class="card-text">Привіт. Це мій сайт який я створив на HTML та CSS. Зараз я вчу мови програмування та мови тегів:
+            Python, CSS, Html. Я дуже люблю компютери, та все що з ними повязано, особливо спалювати їх. Незважаючи на те що я домашній пацюк, 
+            я (рідко) виходжу з хати. Ще я ходжу у спорт зал, пишу свою книгу, граю ігри, та багато чого іншого...
+        </p>
+    </div>
+</div>
+
+    <div class="container card-group">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Inastagram</h5>
+                <p class="card-text">В Instagram, Я публікую все, що відноситься до мене, та до мого життя</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">TikTok</h5>
+                <p class="card-text">В TikTok, Я публікую все про техніку, та компютери.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">YouTube</h5>
+                <p class="card-text">А в Utube, Я публікую все про ігри.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            {% for post in posts %}
+            <div class="col">
+                {% include 'post_card.html' %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

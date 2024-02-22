@@ -1,0 +1,60 @@
+p{
+    color: red;
+    font-size: 20px;
+}
+
+.red{
+    color: rgb(19, 0, 224)
+}
+
+h1{
+    color: blue;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.my-btn{
+    display: block;
+    background: blue;
+    color: #fb5417;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30;
+    border: 1px solid #fb5417;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.block-bg{
+    background-image: url("/static/img/background.jpg");
+    background-size: cover;
+}
+
+.large-text {
+    font-size: 50px;
+    font-family: 'Caveat';
+    color: white;
+}
+body {
+    font-family: 'Walter Turncoat', cursive; /* Застосовуємо шрифт Walter Turncoat для всього документу */
+  }
+  .card-title, .card-text {
+    font-family: 'Walter Turncoat', cursive; /* Застосовуємо шрифт Walter Turncoat для заголовку та тексту в картці */
+  }
+
+body {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+}
+
+.alert-danger{
+    color: red;
+    width: 261px;
+}
+
+.card-padding{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30;
+}
