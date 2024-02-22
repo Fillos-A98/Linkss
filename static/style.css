@@ -27,8 +27,7 @@ h1{
 }
 
 .block-bg{
-    background-image: url("/static/img/background.jpg");
-    background-size: cover;
+    background-color: #0f1b3b
 }
 
 .large-text {
@@ -53,8 +52,19 @@ body {
     width: 261px;
 }
 
-.card-padding{
+
+.card-body{
+    background-color: #17535f;
     text-align: center;
     padding: 15px;
     margin-bottom: 30;
+    border: 1px solid #167ca8;
+    border-radius: 7px;
+
+}
+
+.btn, .btn-dark{
+    background-color: #0f1b3b;
+    border-color: #18a8be;
+    width: 350px;
 }
