@@ -1,5 +1,5 @@
 p{
-    color: red;
+    color: #cccccc;
     font-size: 20px;
 }
 
@@ -52,19 +52,22 @@ body {
     width: 261px;
 }
 
+.card{
+    background-color: #0a2336;
+}
 
 .card-body{
     background-color: #17535f;
     text-align: center;
     padding: 15px;
     margin-bottom: 30;
-    border: 1px solid #167ca8;
+    border: 1px solid #0f1b3b;
     border-radius: 7px;
 
 }
 
 .btn, .btn-dark{
     background-color: #0f1b3b;
-    border-color: #18a8be;
+    border-color: #0f1b3b;
     width: 350px;
 }
