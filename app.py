@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from sql_queries import BlogDB
 
+
 app = Flask(__name__)
 
 db = BlogDB("main.db")
